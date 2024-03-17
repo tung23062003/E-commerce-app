@@ -12,7 +12,8 @@ use Illuminate\Support\Facades\Hash;
 
 class AuthController extends Controller
 {
-    // ahihi
+    // ahihidongoc
+    //test
     public function login_view(){
         if(Auth::check()){
             if(Auth::user()->role == 'admin'){
