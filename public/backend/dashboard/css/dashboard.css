@@ -1,0 +1,13 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.side-bar-item:hover {
+    color: rgb(156 163 175);
+    background-color: rgb(31 41 55);
+    transition: 0.2s ease;
+}
+.active{
+    display: block !important;
+}

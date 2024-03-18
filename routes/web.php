@@ -21,7 +21,7 @@ Route::get('/', function () {
 })->name('home');
 
 Route::get('/dashboard', function(){
-    return view('backend.Auth.dashboard');
+    return view('backend.dashboard.index');
 })->name('dashboard')->middleware('role:admin');
 
 Route::get('/login', [AuthController::class, 'login_view'])->name('login.index');
